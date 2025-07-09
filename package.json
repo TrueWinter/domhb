@@ -1,0 +1,30 @@
+{
+  "name": "domhb",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueWinter/domhb.git"
+  },
+  "author": "TrueWinter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrueWinter/domhb/issues"
+  },
+  "homepage": "https://github.com/TrueWinter/domhb#readme",
+  "description": "",
+  "dependencies": {
+    "utility-types": "^3.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
